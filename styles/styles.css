@@ -176,7 +176,7 @@ nav {
 }
 /*Latest works block*/
 #latest-works {
-    padding: 20px;
+    padding: 20px 20px 50px 20px;
 }
 #latest-works h2 {
     text-align: center;
@@ -187,4 +187,35 @@ nav {
 }
 #latest-works .expert-element img {
     max-width: 95%;
+}
+/*Clients*/
+#clients {
+    padding: 50px 0;
+    background-color: #f1f8ff;
+}
+#clients h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: 300;
+    color: #3677fd;
+}
+.clients-container {
+    max-width: 900px;
+    margin: auto;
+}
+.client-element {
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+}
+@media only screen and (max-width: 768px) {
+    .client-element {
+        display: block;
+        width: 100%;
+    }
+}
+footer {
+    background-image: url("images/header-background-image.png");
 }
