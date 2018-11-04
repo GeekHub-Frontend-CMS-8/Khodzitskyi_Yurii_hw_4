@@ -100,7 +100,7 @@ nav {
     text-align: center;
     padding: 40px;
 }
-#hire-me-header-button{
+#hire-me-header-button {
     height: 37px;
     width: 140px;
     background-color: white;
@@ -113,4 +113,78 @@ nav {
 }
 .little-nav-arrow img {
     max-width: 15px;
+}
+
+/*MAIN BLOCK*/
+/*About me block*/
+#about-me-block {
+    padding: 20px;
+    text-align: center;
+}
+#about-me-block h2 {
+    padding: 20px;
+    font-size: 2em;
+    font-weight: 300;
+    color: #3677fd;
+}
+#about-me-block p {
+    margin: auto;
+    max-width: 900px;
+    font-size: 0.75em;
+    line-height: 25px;
+    padding: 15px;
+}
+/*Expert in block*/
+#expert-in-block {
+    padding: 20px;
+    background-color: #f1f8ff;
+}
+#expert-in-block h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: 300;
+    color: #3677fd;
+}
+
+.expert-container {
+    max-width: 900px;
+    margin: auto;
+}
+.expert-element {
+    width: 32.5%;
+    display: inline-block;
+    text-align: center;
+}
+.expert-element img {
+    padding: 20px;
+}
+.expert-element h3 {
+    color: #3677fd;
+    font-weight: 300;
+}
+.expert-element p {
+    padding: 10px;
+    line-height: 23px;
+    font-size: 0.75em;
+}
+@media only screen and (max-width: 600px) {
+    .expert-element {
+        display: block;
+        width: 100%;
+    }
+}
+/*Latest works block*/
+#latest-works {
+    padding: 20px;
+}
+#latest-works h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: 300;
+    color: #3677fd;
+}
+#latest-works .expert-element img {
+    max-width: 95%;
 }
