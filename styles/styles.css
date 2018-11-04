@@ -1,0 +1,27 @@
+/*cookies form*/
+.cookies-form {
+    text-align: center;
+    background-color: #194277;
+    padding: 10px;
+    color: #fff;
+    font-size: 0.8em;
+}
+#cookies-accept-button {
+    margin: auto 20px;
+    padding: 5px;
+    width: 90px;
+    border-radius: 12px;
+    color: #194277;
+    background-color: #fff;
+}
+/*header*/
+
+header {
+    display: block;
+    background-image: url("../images/header-background-image.png");
+}
+
+.header-content-wrapper {
+    max-width: 800px;
+    margin: auto;
+}
