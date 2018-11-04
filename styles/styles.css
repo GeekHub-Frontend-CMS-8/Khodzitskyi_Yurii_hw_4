@@ -3,6 +3,9 @@
     clear: both;
     display: table;
 }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /*cookies form*/
 .cookies-form {
     text-align: center;
@@ -24,6 +27,7 @@
 header {
     display: block;
     background-image: url("../images/header-background-image.png");
+    background-size: 100%;
 }
 
 .header-content-wrapper {
@@ -32,7 +36,14 @@ header {
 }
 
 /*NAVIGATION*/
-
+nav {
+    display: block;
+}
+.navigation{
+    position: relative;
+    display: inline-block;
+    float: right;
+}
 .dropdown-button {
     background: rgba(0,0,0,0);
     border: rgba(0,0,0,0);
@@ -41,13 +52,13 @@ header {
     padding: 20px;
 }
 .nav-dropdown-content {
-    position: relative;
+    position: absolute;
     width: 120px;
     display: none;
     list-style: none;
     background-color: #194277;
     z-index: 1;
-    float: right;
+    right: 0;
 }
 .nav-dropdown-content li {
     padding: 3px;
@@ -60,4 +71,46 @@ header {
 
 .navigation:hover .nav-dropdown-content {
     display: block;
+}
+/*END NAVIGATION*/
+
+.face-image-wrapper {
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+.header-title h1 {
+    padding: 20px 0px;
+    color: white;
+    text-align: center;
+    font-size: 2.7em;
+}
+.header-title p{
+    margin: auto;
+    width: 80%;
+    font-size: 0.75em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 25px;
+}
+/*HIRE ME BUTTON*/
+.hire-me-header-wrap{
+    text-align: center;
+    padding: 40px;
+}
+#hire-me-header-button{
+    height: 37px;
+    width: 140px;
+    background-color: white;
+    border-radius: 18px;
+    color: #3695ff;
+}
+.little-nav-arrow {
+    text-align: center;
+    padding: 10px;
+}
+.little-nav-arrow img {
+    max-width: 15px;
 }
