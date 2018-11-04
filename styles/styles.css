@@ -1,3 +1,8 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 /*cookies form*/
 .cookies-form {
     text-align: center;
@@ -24,4 +29,26 @@ header {
 .header-content-wrapper {
     max-width: 800px;
     margin: auto;
+}
+
+/*NAVIGATION*/
+
+.dropdown-button {
+    background: rgba(0,0,0,0);
+    border: rgba(0,0,0,0);
+    display: block;
+    float: right;
+}
+.nav-dropdown-content {
+    position: relative;
+    width: 200px;
+    display: none;
+    list-style: none;
+    background-color: #194277;
+    z-index: 1;
+    float: right;
+}
+
+.navigation:hover .nav-dropdown-content {
+    display: block;
 }
