@@ -38,15 +38,24 @@ header {
     border: rgba(0,0,0,0);
     display: block;
     float: right;
+    padding: 20px;
 }
 .nav-dropdown-content {
     position: relative;
-    width: 200px;
+    width: 120px;
     display: none;
     list-style: none;
     background-color: #194277;
     z-index: 1;
     float: right;
+}
+.nav-dropdown-content li {
+    padding: 3px;
+}
+.nav-dropdown-content li a {
+    text-decoration: none;
+    color: white;
+    padding: 3px;
 }
 
 .navigation:hover .nav-dropdown-content {
