@@ -8,17 +8,16 @@ body {
 }
 /*cookies form*/
 .cookies-form {
+    height: 72px;
     text-align: center;
     background-color: #194277;
-    padding: 10px;
     color: #fff;
-    font-size: 0.8em;
 }
 #cookies-accept-button {
-    margin: auto 20px;
-    padding: 5px;
-    width: 90px;
-    border-radius: 12px;
+    margin: 20px 20px;
+    width: 112px;
+    height: 30px;
+    border-radius: 15px;
     color: #194277;
     background-color: #fff;
 }
@@ -31,7 +30,7 @@ header {
 }
 
 .header-content-wrapper {
-    max-width: 800px;
+    max-width: 820px;
     margin: auto;
 }
 
@@ -83,12 +82,13 @@ nav {
     padding: 20px 0px;
     color: white;
     text-align: center;
-    font-size: 2.7em;
+    font-size: 46px;
+    letter-spacing: 1.25px;
 }
 .header-title p{
     margin: auto;
-    width: 80%;
-    font-size: 0.75em;
+    width: 765px;
+    font-size: 16px;
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -101,10 +101,10 @@ nav {
     padding: 40px;
 }
 #hire-me-header-button {
-    height: 37px;
-    width: 140px;
+    height: 55px;
+    width: 204px;
     background-color: white;
-    border-radius: 18px;
+    border-radius: 28px;
     color: #3695ff;
 }
 .little-nav-arrow {
@@ -118,20 +118,20 @@ nav {
 /*MAIN BLOCK*/
 /*About me block*/
 #about-me-block {
-    padding: 20px;
+    padding: 50px;
     text-align: center;
 }
 #about-me-block h2 {
     padding: 20px;
-    font-size: 2em;
-    font-weight: 300;
+    font-size: 50px;
+    font-weight: 400;
     color: #3677fd;
 }
 #about-me-block p {
     margin: auto;
-    max-width: 900px;
-    font-size: 0.75em;
-    line-height: 25px;
+    max-width: 1070px;
+    font-size: 16px;
+    line-height: 35px;
     padding: 15px;
 }
 /*Expert in block*/
@@ -142,13 +142,13 @@ nav {
 #expert-in-block h2 {
     text-align: center;
     padding: 20px;
-    font-size: 2em;
+    font-size: 50px;
     font-weight: 300;
     color: #3677fd;
 }
 
 .expert-container {
-    max-width: 900px;
+    max-width: 1170px;
     margin: auto;
 }
 .expert-element {
@@ -162,11 +162,13 @@ nav {
 .expert-element h3 {
     color: #3677fd;
     font-weight: 300;
+    font-size: 24px;
 }
 .expert-element p {
     padding: 10px;
-    line-height: 23px;
-    font-size: 0.75em;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 400;
 }
 @media only screen and (max-width: 600px) {
     .expert-element {
@@ -181,7 +183,7 @@ nav {
 #latest-works h2 {
     text-align: center;
     padding: 20px;
-    font-size: 2em;
+    font-size: 50px;
     font-weight: 300;
     color: #3677fd;
 }
@@ -196,19 +198,19 @@ nav {
 #clients h2 {
     text-align: center;
     padding: 20px;
-    font-size: 2em;
+    font-size: 50px;
     font-weight: 300;
     color: #3677fd;
 }
 .clients-container {
-    max-width: 900px;
+    max-width: 1170px;
     margin: auto;
 }
 .client-element {
     width: 24%;
-    display: inline-block;
+    float: left;
     text-align: center;
-    padding: 10px 0;
+    padding: 40px 0;
 }
 @media only screen and (max-width: 768px) {
     .client-element {
@@ -217,5 +219,33 @@ nav {
     }
 }
 footer {
-    background-image: url("images/header-background-image.png");
+    background-image: url("../images/footer-background-image.png");
+    background-size: 100%;
+    padding: 60px 0;
+}
+.footer-hire {
+    max-width: 1140px;
+    text-align: center;
+    margin: auto;
+}
+.footer-hire h2 {
+    display: inline-block;
+    color: white;
+    min-height: 60px;
+    float: left;
+    font-weight: 200;
+    font-size: 50px;
+}
+.footer-hire form {
+    float: left;
+    height: 60px;
+    display: inline-block;
+}
+.footer-hire button {
+    height: 55px;
+    width: 190px;
+    background-color: white;
+    border-radius: 27px;
+    color: #3695ff;
+    font-size: 16px;
 }
