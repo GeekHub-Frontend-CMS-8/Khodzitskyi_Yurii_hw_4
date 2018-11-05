@@ -87,7 +87,7 @@ nav {
 }
 .header-title p{
     margin: auto;
-    width: 765px;
+    max-width: 765px;
     font-size: 16px;
     color: white;
     text-transform: uppercase;
