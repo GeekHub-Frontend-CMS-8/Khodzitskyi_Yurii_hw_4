@@ -46,6 +46,7 @@ nav {
 .dropdown-button {
     background: rgba(0,0,0,0);
     border: rgba(0,0,0,0);
+    outline: none;
     display: block;
     float: right;
     padding: 20px;
@@ -98,7 +99,7 @@ nav {
 /*HIRE ME BUTTON*/
 .hire-me-header-wrap{
     text-align: center;
-    padding: 40px;
+    padding: 40px 0;
 }
 #hire-me-header-button {
     height: 55px;
@@ -106,6 +107,7 @@ nav {
     background-color: white;
     border-radius: 28px;
     color: #3695ff;
+    outline: none;
 }
 .little-nav-arrow {
     text-align: center;
@@ -258,4 +260,5 @@ footer {
     border-radius: 27px;
     color: #3695ff;
     font-size: 16px;
+    outline: none;
 }
